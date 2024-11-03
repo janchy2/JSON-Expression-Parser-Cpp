@@ -1,0 +1,40 @@
+{
+  "string": "This is a string.",
+  "number": 42,
+  "float": 3.14,
+  "booleanTrue": true,
+  "booleanFalse": false,
+  "nullValue": null,
+  "array": [
+    "item1",
+    100,
+    false,
+    2.718,
+    null
+  ],
+  "object": {
+    "key1": "value1",
+    "key2": {
+      "nestedKey": 10,
+      "nestedArray": [ 1, 2, 3 ]
+    },
+    "key3": [
+      {
+        "name": "Alice",
+        "age": 30
+      },
+      {
+        "name": "Bob",
+        "age": 25
+      }
+    ]
+  },
+  "mixedArray": [
+    "string",
+    100,
+    45.67,
+    { "nestedObject": "value" },
+    [ 1, 2, 3 ],
+    []
+  ]
+}
